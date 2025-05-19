@@ -1,0 +1,53 @@
+ #titulo{
+    color: blue;
+ }
+
+ p.especial{
+    color: mediumaquamarine;
+ }
+ 
+  p.texto {
+    color: red;
+ }
+
+/* Todas las etiquetas de div que contengan p heredadas van a tener el mismo estilo */
+ div p{
+    color: aquamarine;
+} 
+
+ div h2, div h3{
+    color: brown;
+ }
+
+ /* El asterisco permite seleccionar todo y por ej en el caso seleccionar el tipo de fuente
+    si tenemos un elemento que no tenga definida la propiedad de color si la toma  */
+ * {
+    font-size: 24px;
+    color: black;
+ } 
+/*
+ .color{
+    color: #0f0;
+ }
+*/
+
+/*
+ .color{
+    color:rgb(255, 0, 187);
+ }
+*/
+
+.color{
+/*     border: 5px red inset; black dashed es punteada y solid
+ */
+/*  Las unidades de medición son px:pixel, cm, mm, in:pulgada */ 
+ border-style: solid;
+ border-color: blue;
+ border-radius: 5px;
+ border-width: 2rem;
+ 
+}
+
+#fondo{
+    background-color: red;    
+}
