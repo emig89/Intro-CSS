@@ -49,5 +49,13 @@
 }
 
 #fondo{
-    background-color: red;    
-}
+    background-color: gray;
+   /*  opacity: 0.7;  */ 
+    /* height: 200px;
+    background-image: url('visual1.jpeg');
+    background-size: 200px 200px;
+    background-repeat: repeat-y; NO-REPEAT esto hace que no se repita la imagen */
+    /* center top=para centrar imagen, left top=borde, o right, pueden ser TOP;CENTER O BOTTOM */
+    /* background-position: center top; */
+    background: #f00 url('visual1.jpeg') repeat-y center bottom / 100px 100px;
+   }
